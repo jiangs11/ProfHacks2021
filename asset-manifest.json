@@ -1,21 +1,33 @@
 {
   "files": {
-    "main.js": "/ProfHacks2021/static/js/main.e7790123.chunk.js",
-    "main.js.map": "/ProfHacks2021/static/js/main.e7790123.chunk.js.map",
+    "main.js": "/ProfHacks2021/static/js/main.3cc3e30c.chunk.js",
+    "main.js.map": "/ProfHacks2021/static/js/main.3cc3e30c.chunk.js.map",
     "runtime-main.js": "/ProfHacks2021/static/js/runtime-main.65ad2ae8.js",
     "runtime-main.js.map": "/ProfHacks2021/static/js/runtime-main.65ad2ae8.js.map",
     "static/css/2.150d169a.chunk.css": "/ProfHacks2021/static/css/2.150d169a.chunk.css",
-    "static/js/2.8260a922.chunk.js": "/ProfHacks2021/static/js/2.8260a922.chunk.js",
-    "static/js/2.8260a922.chunk.js.map": "/ProfHacks2021/static/js/2.8260a922.chunk.js.map",
+    "static/js/2.4fe49eff.chunk.js": "/ProfHacks2021/static/js/2.4fe49eff.chunk.js",
+    "static/js/2.4fe49eff.chunk.js.map": "/ProfHacks2021/static/js/2.4fe49eff.chunk.js.map",
     "index.html": "/ProfHacks2021/index.html",
     "static/css/2.150d169a.chunk.css.map": "/ProfHacks2021/static/css/2.150d169a.chunk.css.map",
-    "static/js/2.8260a922.chunk.js.LICENSE.txt": "/ProfHacks2021/static/js/2.8260a922.chunk.js.LICENSE.txt",
-    "static/media/YellowLabradorLooking_new.976abb28.jpg": "/ProfHacks2021/static/media/YellowLabradorLooking_new.976abb28.jpg"
+    "static/js/2.4fe49eff.chunk.js.LICENSE.txt": "/ProfHacks2021/static/js/2.4fe49eff.chunk.js.LICENSE.txt",
+    "static/media/101.055ed33d.png": "/ProfHacks2021/static/media/101.055ed33d.png",
+    "static/media/107.70a8479b.png": "/ProfHacks2021/static/media/107.70a8479b.png",
+    "static/media/274.709b79d7.png": "/ProfHacks2021/static/media/274.709b79d7.png",
+    "static/media/370.7f03e0c6.png": "/ProfHacks2021/static/media/370.7f03e0c6.png",
+    "static/media/412.24964aee.png": "/ProfHacks2021/static/media/412.24964aee.png",
+    "static/media/436.7d88e5d0.png": "/ProfHacks2021/static/media/436.7d88e5d0.png",
+    "static/media/504.408f2a15.png": "/ProfHacks2021/static/media/504.408f2a15.png",
+    "static/media/506.b06fcaf0.png": "/ProfHacks2021/static/media/506.b06fcaf0.png",
+    "static/media/bear_13.1569fb2e.png": "/ProfHacks2021/static/media/bear_13.1569fb2e.png",
+    "static/media/bear_14.6c5f9ceb.png": "/ProfHacks2021/static/media/bear_14.6c5f9ceb.png",
+    "static/media/bear_70.45b9e624.png": "/ProfHacks2021/static/media/bear_70.45b9e624.png",
+    "static/media/birb.63b2e735.png": "/ProfHacks2021/static/media/birb.63b2e735.png",
+    "static/media/structure.0f95efc4.png": "/ProfHacks2021/static/media/structure.0f95efc4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.65ad2ae8.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.8260a922.chunk.js",
-    "static/js/main.e7790123.chunk.js"
+    "static/js/2.4fe49eff.chunk.js",
+    "static/js/main.3cc3e30c.chunk.js"
   ]
 }
