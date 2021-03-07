@@ -22,9 +22,9 @@ export class NavBar extends Component {
 		return (
 			<Navbar bg="dark" variant="dark" expand="xl" fixed="top">
 				<Navbar.Brand href="#home" onClick={handleTopScroll}>
-					Neutral Style Transfer with Instance Segmentation
+					Project SAM: Neural Style Transfer with Instance Segmentation
 				</Navbar.Brand>
-				<Navbar.Brand href="#about" style={{marginLeft: '40%'}} onClick={handleBottomScroll}>
+				<Navbar.Brand href="#about" style={{marginLeft: '30%'}} onClick={handleBottomScroll}>
 					About this project
 				</Navbar.Brand>
 				<Navbar.Brand href="https://github.com/jiangs11/ProfHacks2021" target="_blank" style={{marginLeft:'5%'}}>
