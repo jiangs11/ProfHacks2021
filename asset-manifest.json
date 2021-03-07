@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/ProfHacks2021/static/js/main.e7790123.chunk.js",
+    "main.js.map": "/ProfHacks2021/static/js/main.e7790123.chunk.js.map",
+    "runtime-main.js": "/ProfHacks2021/static/js/runtime-main.65ad2ae8.js",
+    "runtime-main.js.map": "/ProfHacks2021/static/js/runtime-main.65ad2ae8.js.map",
+    "static/css/2.150d169a.chunk.css": "/ProfHacks2021/static/css/2.150d169a.chunk.css",
+    "static/js/2.8260a922.chunk.js": "/ProfHacks2021/static/js/2.8260a922.chunk.js",
+    "static/js/2.8260a922.chunk.js.map": "/ProfHacks2021/static/js/2.8260a922.chunk.js.map",
+    "index.html": "/ProfHacks2021/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/ProfHacks2021/static/css/2.150d169a.chunk.css.map",
+    "static/js/2.8260a922.chunk.js.LICENSE.txt": "/ProfHacks2021/static/js/2.8260a922.chunk.js.LICENSE.txt",
+    "static/media/YellowLabradorLooking_new.976abb28.jpg": "/ProfHacks2021/static/media/YellowLabradorLooking_new.976abb28.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65ad2ae8.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.8260a922.chunk.js",
+    "static/js/main.e7790123.chunk.js"
+  ]
+}
