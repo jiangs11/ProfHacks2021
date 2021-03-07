@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/ProfHacks2021/static/js/main.3cc3e30c.chunk.js",
-    "main.js.map": "/ProfHacks2021/static/js/main.3cc3e30c.chunk.js.map",
+    "main.js": "/ProfHacks2021/static/js/main.362d7b22.chunk.js",
+    "main.js.map": "/ProfHacks2021/static/js/main.362d7b22.chunk.js.map",
     "runtime-main.js": "/ProfHacks2021/static/js/runtime-main.65ad2ae8.js",
     "runtime-main.js.map": "/ProfHacks2021/static/js/runtime-main.65ad2ae8.js.map",
     "static/css/2.150d169a.chunk.css": "/ProfHacks2021/static/css/2.150d169a.chunk.css",
-    "static/js/2.4fe49eff.chunk.js": "/ProfHacks2021/static/js/2.4fe49eff.chunk.js",
-    "static/js/2.4fe49eff.chunk.js.map": "/ProfHacks2021/static/js/2.4fe49eff.chunk.js.map",
+    "static/js/2.0d72918d.chunk.js": "/ProfHacks2021/static/js/2.0d72918d.chunk.js",
+    "static/js/2.0d72918d.chunk.js.map": "/ProfHacks2021/static/js/2.0d72918d.chunk.js.map",
     "index.html": "/ProfHacks2021/index.html",
     "static/css/2.150d169a.chunk.css.map": "/ProfHacks2021/static/css/2.150d169a.chunk.css.map",
-    "static/js/2.4fe49eff.chunk.js.LICENSE.txt": "/ProfHacks2021/static/js/2.4fe49eff.chunk.js.LICENSE.txt",
+    "static/js/2.0d72918d.chunk.js.LICENSE.txt": "/ProfHacks2021/static/js/2.0d72918d.chunk.js.LICENSE.txt",
     "static/media/101.055ed33d.png": "/ProfHacks2021/static/media/101.055ed33d.png",
     "static/media/107.70a8479b.png": "/ProfHacks2021/static/media/107.70a8479b.png",
     "static/media/274.709b79d7.png": "/ProfHacks2021/static/media/274.709b79d7.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.65ad2ae8.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.4fe49eff.chunk.js",
-    "static/js/main.3cc3e30c.chunk.js"
+    "static/js/2.0d72918d.chunk.js",
+    "static/js/main.362d7b22.chunk.js"
   ]
 }
