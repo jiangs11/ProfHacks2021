@@ -1,19 +1,42 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import StoreProvider from './context/Store'
-import NavBar from './components/NavBar'
 import PhotoGallery from './components/PhotoGallery'
 import StyleButton from './components/StyleButton'
 import About from './components/About'
 import Results from './components/Results'
 import ResultsGallery from './components/ResultsGallery'
-import { Tabs, Tab } from 'react-bootstrap'
+import { Navbar, Tabs, Tab } from 'react-bootstrap'
 
 const App = () => {
+	const myRef = useRef(null)
+
+	const handleTopScroll = () => {
+		window.scroll({
+			top: 0,
+			left: 0, 
+			behavior: 'smooth',
+		})
+	}
+	
+	const executeScroll = () => {
+		myRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' })
+	}
+
 	return (
 		<div className="App">
 			<StoreProvider>
-				<NavBar />
+				<Navbar bg="dark" variant="dark" expand="xl" fixed="top">
+					<Navbar.Brand href="#home" onClick={handleTopScroll}>
+						Project SAM: Neural Style Transfer with Instance Segmentation
+					</Navbar.Brand>
+					<Navbar.Brand href="#about" style={{marginLeft: '30%'}} onClick={executeScroll}>
+						About this project
+					</Navbar.Brand>
+					<Navbar.Brand href="https://github.com/jiangs11/ProfHacks2021" target="_blank" style={{marginLeft:'5%'}}>
+						GitHub
+					</Navbar.Brand>
+				</Navbar>
 				<br/>
 				<Tabs defaultActiveKey="home" id="uncontrolled-tab-example" style={{marginTop: '5%'}}>
 					<br />
@@ -33,6 +56,7 @@ const App = () => {
 						<ResultsGallery />
 					</Tab>
 				</Tabs>
+				<div ref={myRef} />
 				<About />
 			</StoreProvider>
 		</div>

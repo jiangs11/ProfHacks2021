@@ -45,30 +45,28 @@ export default function StyleButton() {
                     variant="danger" 
                     style={{width: '20%'}}
                 >
-                    Server is Down :(
+                    Error at this time :(
                 </Button>
                 :
-                null
-            }
-            {isLoading ?
-                <Button variant="primary" disabled>
-                    <Spinner
-                        as="span"
-                        animation="grow"
-                        size="sm"
-                        role="status"
-                        aria-hidden="true"
-                    />
-                    Processing...
-                </Button>
-                :
-                <Button 
-                    variant="dark" 
-                    onClick={() => styleInBackend()} 
-                    style={{width: '20%'}}
-                >
-                    Style!
-                </Button>
+                isLoading ?
+                    <Button variant="primary" disabled>
+                        <Spinner
+                            as="span"
+                            animation="grow"
+                            size="sm"
+                            role="status"
+                            aria-hidden="true"
+                        />
+                        Processing...
+                    </Button>
+                    :
+                    <Button 
+                        variant="dark" 
+                        onClick={() => styleInBackend()} 
+                        style={{width: '20%'}}
+                    >
+                        Style!
+                    </Button>
             }
         </div>
     )

@@ -17,19 +17,31 @@ import imageBirb from '../images/results/birb.png'
 
 export default function ResultsGallery() {
     return (
-        <div style={{flexDirection: 'column', marginLeft: '7%'}}>
-            <Image src={image101} rounded />
-            <Image src={image107} rounded />
-            <Image src={image274} rounded />
-            <Image src={image370} rounded />
-            <Image src={image412} rounded />
-            <Image src={image436} rounded />
-            <Image src={image504} rounded />
-            <Image src={image506} rounded />
-            <Image src={imageBear13} rounded />
-            <Image src={imageBear14} rounded />
-            <Image src={imageBear70} rounded />
-            <Image src={imageBirb} rounded />
+        <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', flexDirection: 'column'}}>
+            <div>
+                <Image src={image101} rounded />
+                <Image src={image107} rounded />
+            </div>
+            <div>
+                <Image src={image274} rounded />
+                <Image src={image370} rounded />
+            </div>
+            <div>
+                <Image src={image412} rounded />
+                <Image src={image436} rounded />
+            </div>
+            <div>
+                <Image src={image504} rounded />
+                <Image src={image506} rounded />
+            </div>
+            <div>
+                <Image src={imageBear13} rounded />
+                <Image src={imageBear14} rounded />
+            </div>
+            <div>
+                <Image src={imageBear70} rounded />
+                <Image src={imageBirb} rounded />
+            </div>
         </div>
     )
 }
