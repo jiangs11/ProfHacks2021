@@ -17,7 +17,7 @@ Example Output:
 ![GitHub Logo](https://github.com/jiangs11/ProfHacks2021/blob/website/src/images/results/birb.png)
 
 ## Website Link: [https://jiangs11.github.io/ProfHacks2021/](https://jiangs11.github.io/ProfHacks2021/)
-NOTE: Our Flask backend is only hosted locally, therefore you are unable to generate the styled images just yet. In the future, this will be hosted. If you would like to run the Flask app on your own machine, please follow the instructions in the next section.
+NOTE: Our Flask backend is only hosted locally, therefore you are unable to generate the styled images just yet. In the future, this will be hosted. If you would like to run the Flask app on your own machine, please follow the instructions in the next section. Meanwhile, you can check out our favorite styled images in the "Our Favorite Styles Gallery" tab of the website.
 
 ### Run Flask app on your machine
 1. Make sure Python 3 is installed.
