@@ -38,32 +38,25 @@ def create2_styles():
     '''
     # Check that other parameters exist
     # Check file
-    content_file = request.files.get("content", None)
+    content_file = request.json.get("content", None)
     if content_file is None:
         return jsonify({"message": "Missing files attachment 'content_file'"}), 400
 
-    style_1 = request.files.get("style_1", None)
+    style_1 = request.json.get("style_1", None)
     if style_1 is None:
         return jsonify({"message": "Missing files attachment 'style_1'"}), 400
 
-    style_2 = request.files.get("style_2", None)
+    style_2 = request.json.get("style_2", None)
     if style_2 is None:
         return jsonify({"message": "Missing files attachment 'style_2'"}), 400
 
-    secure_filename(os.path.join("static/inputs/", content_file.filename))
-    secure_filename(os.path.join("static/inputs/" + style_1.filename))
-    secure_filename(os.path.join("static/inputs/", style_2.filename))
-    content_file.save(os.path.join("static/inputs/", content_file.filename))
-    style_1.save(os.path.join("static/inputs/", style_1.filename))
-    style_2.save(os.path.join("static/inputs/", style_2.filename))
-
-    secure_filename(os.path.join("static/inputs/", content_file.filename))
-    mask_image = tf.keras.preprocessing.image.load_img(os.path.join("static/inputs/", content_file.filename))
+    secure_filename(os.path.join("static/inputs/", content_file))
+    mask_image = tf.keras.preprocessing.image.load_img(os.path.join("static/inputs/", content_file))
 
     # Get images
-    content_image = image_loader.load_img("static/inputs/" + content_file.filename)
-    style_image = image_loader.load_img("static/inputs/" + style_1.filename)
-    style_image2 = image_loader.load_img("static/inputs/" + style_2.filename)
+    content_image = image_loader.load_img("static/inputs/" + content_file)
+    style_image = image_loader.load_img("static/inputs/" + style_1)
+    style_image2 = image_loader.load_img("static/inputs/" + style_2)
 
 
     # Transfer Style
@@ -73,8 +66,6 @@ def create2_styles():
     # Get mask
     image = np.asarray(mask_image)
     mask = tf.dtypes.cast(image_segmentor.segment(image), tf.float32)
-
-
 
     # Invert mask for foreground
     # [2, 1, 0] => [1, 0, 1]
