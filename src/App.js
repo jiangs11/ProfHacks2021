@@ -41,6 +41,7 @@ const App = () => {
 				<Tabs defaultActiveKey="home" id="uncontrolled-tab-example" style={{marginTop: '5%'}}>
 					<br />
 					<Tab eventKey="home" title="Style an Image" style={{flex: 1, textAlign: 'center'}}>
+                        <h1 style={{ color: 'red' }}>The machine learning part (below) of this site is down. <br />Go check out the gallery tab for cool outputs!</h1>
 						<div style={{display: 'flex', marginTop: '3%'}}>
 							<PhotoGallery type="Base" />
 							<PhotoGallery type="Style1" />
